@@ -1,0 +1,417 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+*{
+
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root{
+
+    --primary-color:#b00000;
+    --secondary-color:#002D73;
+
+}
+
+body{
+
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+  
+
+}
+
+h3{
+    font-size: 0.8rem;
+    font-weight: 700;
+}
+
+p{
+    font-size: 1rem;
+    font-weight: 300;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    font-weight:700 ;
+}
+
+ul{
+    list-style: none;
+}
+
+
+main{
+   
+    margin-top: 20px;
+    margin-left: 4%;
+    margin-right: 4%;
+    margin-bottom: 0;
+    /* background-color: red; */
+   
+   
+}
+
+header{
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+ /* Navbar starts here */
+
+ nav ul li{
+display: inline-block;
+ padding: 10px 14px;
+ }
+
+
+ .contact{
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 5px;
+ }
+
+ .contact i{
+    color: var(--primary-color);
+ }
+
+ /* Navbar Ends here */
+
+ 
+
+ .hero-section{
+     
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 60vh;
+    overflow: hidden;
+    margin-top: 40px;
+
+ }
+ .hero-left{
+    flex: 2;
+ }
+
+
+ .hero-right{
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+ }
+
+ .hero-right img{
+
+    min-height: 400px;
+
+ }
+ 
+ .hero-left p{
+
+    color: var(--primary-color);font-weight: 700;
+    margin-bottom: 20px;
+    letter-spacing: 2px;
+
+ }
+
+ .hero-left h1{
+    font-size: 2.5rem;
+ }
+
+ .hero-left h3{
+
+    font-size: 1.8rem;
+    color: var(--secondary-color);
+    margin-bottom: 10px;
+ }
+
+ button{
+    padding: 12px 26px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    border-radius: 8px;
+
+ }
+
+
+ .hero-left .primary{
+    background-color: var(--primary-color);
+    color: white;
+    
+ }
+
+ .hero-left .secondary{
+    background-color: transparent;
+    color: rgb(73, 71, 71);
+    border: 1px solid black;
+    
+ }
+
+
+ 
+ #description{
+    color:black;font-weight: 400;
+    margin-bottom: 20px;
+    letter-spacing:1px;
+
+}
+
+.standout-section{
+   margin-top: 100px;
+}
+
+.standout-section p{
+   letter-spacing: 1px;
+   max-width: 50%;
+   font-weight: 500;
+   text-align: justify;
+}
+
+.standout-section h2{
+   margin-bottom: 10px;
+   font-weight: 700;
+}
+
+
+.card{
+   margin-top: 100px;
+   max-width: 400px;
+   padding: 10px 10px;
+ 
+   
+   
+}
+
+
+.card i{
+  font-size: 40px;
+   background-color: #f7b4b0;
+   border-radius: 50%;
+   width: 50px;
+
+   height: 50px;
+   
+   
+   
+}
+.card h3{
+
+   text-align: center;
+   margin-top: 10px;
+   margin-bottom: 10px;
+}
+
+.card p{
+   text-align: center;
+   letter-spacing: 1px;
+}
+
+.ad-section{
+   display: flex;
+   justify-content: space-evenly;
+   align-items: center;
+   
+}
+.card-class{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.flutterfly{
+
+   
+   margin-top: 100px;
+   
+}
+
+.flutterclass{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+}
+
+
+
+
+.flutterfly p{
+   margin-top: 10px;
+   
+}
+
+.flutterfly button{
+   margin-top: 10px;
+   color: white;
+   background-color: var(--primary-color);
+   width: 250px;
+   margin-bottom: 20px;
+   
+}
+.stories{
+   margin-top: 30px;
+}
+.stories p{
+   margin-left: 100px;
+   margin-top: 20px;
+}
+
+.story{
+   
+   
+   margin-top: 50px;
+   max-width: 300px;
+   background-color: #c7bfbf;
+   margin-bottom: 20px;
+   padding-top: 5px;
+   padding-left: 20px;
+   padding-bottom: 50px;
+   height: 400px;
+   border-radius: 10px;
+   margin-left: 50px;
+   
+}
+
+.story p{
+   margin-left: 30px;
+}
+.story h3{
+   margin-left: 30px;
+}
+.story img{
+
+
+   width: 50px;
+   height: 50px;
+   border-radius: 50%;
+  margin-right: 30px;
+  
+
+}
+.story i{
+   font-size: 50px;
+   margin-left: 20px;
+   
+}
+.img-class{
+   display: flex;
+   justify-content: end;
+   
+}
+.storystory{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+  
+   margin-left: 50px;
+   
+
+}
+
+
+.maindiv{
+   margin-top: 70px;
+   display: flex;
+   justify-content: space-between;
+   margin-left: 10px;
+   
+
+}
+
+.right{
+  
+  max-width: 500px;
+   
+}
+.right img{
+   margin: 10px;
+}
+
+.career{
+   background-color: #c7bfbf;
+   margin-bottom: 20px;
+   margin-top: 80px;
+   margin-left: 40px;
+   margin-right: 40px;
+   
+   
+   
+}
+.career h1{
+   text-align: center;
+   font-size: 40px;
+   
+}
+#nothing{
+   margin-top: 20px;
+}
+.careerdiv{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+   padding: 10px;
+}
+.career button{
+   max-width: 200px;
+   margin-bottom: 20px;
+   margin-top: 10px;
+   color: white;
+   background-color: var(--primary-color);   
+}
+
+
+footer{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   background: linear-gradient(to right, var(--primary-color), var(--secondary-color));
+   margin-top: 50px;
+   margin-left: 0px;
+   color: white;
+   padding: 40px;
+   height: 200px;
+}
+
+
+.footerleft p{
+   text-align: justify;
+   font-weight: 100;
+}
+.footerleft h3{
+
+   margin-top: 40px;
+   margin-bottom: 20px;
+
+}
+
+
+.footerright{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   padding: 10px;
+   margin: 10px;
+}
+.courses{
+   margin: 60px;
+}
+.services{
+   margin: 50px;
+}
+.company{
+   margin: 50px;
+}
+.help{
+   margin: 50px;
+}
