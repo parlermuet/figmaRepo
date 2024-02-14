@@ -416,3 +416,12 @@ footer{
 .help{
    margin: 50px;
 }
+
+.contact{
+   background-color: red;
+   height: 500px;
+   
+}
+.herecontact{
+   font-size: 40px;
+}
